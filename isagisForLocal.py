@@ -412,3 +412,9 @@ def motorOrgan(_hash):
         ret=False
     print(json.dumps(result,ensure_ascii=False))
     return ret       
+
+
+'''to execute:
+if not re.search(r'Exception',x): motorOrgan(x)
+else: x
+'''
