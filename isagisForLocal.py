@@ -415,6 +415,10 @@ def motorOrgan(_hash):
 
 
 '''to execute:
+x=normalizationType('<path from your photo>')
 if not re.search(r'Exception',x): motorOrgan(x)
 else: x
+'''
+'''to view metrics:
+tokenWords
 '''
